@@ -4,8 +4,6 @@ export const navLinks = [
   { name: "Shop", path: "/" },
   { name: "Vendor", path: "/" },
 ];
-
-// Features with icons
 export const features = [
   {
     name: "Easy Shopping",
@@ -26,3 +24,21 @@ export const features = [
     icon: FaCheckCircle, 
   },
 ];
+export const processFeatures = [
+  {
+    name: "Join Our community",
+    description: "Sign in using your student or faculty Id to access the exclusive editorial marketplace",
+    number: "01",
+  },
+  {
+    name: "Browse Products",
+    description: "Explore curated gallerves of electronics,fashion,and services from fellow students.",
+    number: "02",
+  },
+  {
+    name: "Shop or Sell with ease",
+    description: "Complete transactions instantly with our integrated secure payment processing system",
+    number:"03",
+  },
+];
+export const verification=[{name:"Safe and Verified", description:"every transaction in backend by our campus-wide guarantee system ",icon: FaCheckCircle} ]

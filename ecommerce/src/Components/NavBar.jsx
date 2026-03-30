@@ -48,7 +48,7 @@ const NavBar = () => {
             <FaUser className="text-gray-700 text-sm" />
           </div>
 
-          {/* Hamburger (only mobile) */}
+     
           <button
             className="md:hidden text-2xl text-blue-900"
             onClick={() => setMenuOpen(!menuOpen)}
@@ -60,7 +60,6 @@ const NavBar = () => {
 
       </div>
 
-      {/* Mobile Menu */}
       {menuOpen && (
         <div className="md:hidden bg-white shadow-md">
           <ul className="flex flex-col items-center gap-6 py-6">

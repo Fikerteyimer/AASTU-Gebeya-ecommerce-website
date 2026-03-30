@@ -1,8 +1,8 @@
 import { FaShoppingBag, FaRobot, FaCheckCircle } from "react-icons/fa"; 
 
 export const navLinks = [
-  { name: "Shop", path: "/" },
-  { name: "Vendor", path: "/" },
+  { name: "Shop", path: "/shop" },
+  { name: "Vendor", path: "/vendor" },
 ];
 export const features = [
   {

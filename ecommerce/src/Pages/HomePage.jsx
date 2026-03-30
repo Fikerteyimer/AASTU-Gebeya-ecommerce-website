@@ -1,10 +1,9 @@
 import React from "react";
-import NavBar from "../Navbar";
+import NavBar from "../Components/NavBar";
 import Hero from "../Components/Hero";
 import MarketFeatures from "../Components/MarketFeatures";
 import { features, processFeatures, verification } from "../data";
 import Footer from "../Components/Footer";
-import Cards from "../Components/Cards";
 import background2 from "../assets/background2.jpg";
 
 function HomePage() {
@@ -29,7 +28,7 @@ function HomePage() {
         description="Simple, fast and secure marketplace integration."
         items={processFeatures}
       />
-      <Cards items={verification} />
+     
 
       <Footer />
     </>

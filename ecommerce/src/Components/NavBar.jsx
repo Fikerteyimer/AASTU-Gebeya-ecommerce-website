@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { navLinks } from "./data";
+import { navLinks } from "../data";
 import { FaShoppingCart, FaUser } from "react-icons/fa";
 
 const NavBar = () => {
@@ -10,13 +10,11 @@ const NavBar = () => {
     <nav className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
       
       <div className="flex justify-between items-center px-6 py-3">
-
-        {/* Logo */}
         <h1 className="text-blue-900 text-xl md:text-2xl font-bold">
           Campus <span className="text-blue-700">Gebeya</span>
         </h1>
 
-        {/* Desktop Links */}
+
         <ul className="hidden md:flex items-center gap-8">
           {navLinks.map((nav, index) => (
             <li key={index}>

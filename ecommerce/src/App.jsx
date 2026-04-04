@@ -5,7 +5,6 @@ import HomePage from './Pages/HomePage'
 import Shop from './Pages/Shop';
 import Vendor from './Pages/Vendor';
 
-
 function App() {
     return(
      <Routes>
